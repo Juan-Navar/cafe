@@ -1,0 +1,24 @@
+
+.logo{
+    color: $blanco;
+}
+
+.logo-nombre{
+    font-weight: 400;
+
+}
+
+.logo-bold{
+    font-weight: 700; /*aparece en negrita en el logo*/
+}
+
+.navegacion{
+
+}
+
+.navegacion-enlace{
+    display: block;  /*para que esten uno arriba del otro*/
+    text-align: center;
+    font-size: 1.8rem;
+    color: $blanco;
+}

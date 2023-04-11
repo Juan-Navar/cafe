@@ -1,0 +1,21 @@
+/* esto hace que en el tablet tenga el display flex y se acomoden de lado*/
+@media (min-width: 768px){
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+    .header-texto{
+        margin-top: 15rem;
+    }
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+
