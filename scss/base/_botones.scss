@@ -1,0 +1,19 @@
+
+.boton{
+    display: block; /*esto hace que en dispositivos chicos se llene la pantalla*/
+    font-family: $fuenteheading;
+    color: $blanco;
+    text-align: center;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.boton-primario{
+    background-color: $negro;
+}
+
+.boton-secundario{
+    background-color: $colorprimario;
+}

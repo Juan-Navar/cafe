@@ -17,5 +17,14 @@
         grid-template-columns: 2fr 1fr;
         column-gap: 4rem;
     }
+    .entrada{
+        a{
+            display: inline-block;
+        }
+    }
+    .sidebar{
+        a{
+            display: inline-block;
+        }
+    }
 }
-

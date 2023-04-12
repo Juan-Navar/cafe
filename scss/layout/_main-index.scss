@@ -1,0 +1,38 @@
+
+
+.entrada{
+    border-bottom: 1px solid $colorclaro;
+    margin-bottom: 2rem;
+}
+
+/*con esto le estamos diciendo que al ultimo article no le ponga el borde abajo*/
+.entrada{
+    &:last-of-type{
+        border: none;
+        margin-bottom: 0;
+    }
+}
+
+.cursos{
+    list-style: none;
+}
+
+.widget-curso{
+    border-bottom: 1px solid $colorclaro;
+    margin-bottom: 2rem;
+    &:last-of-type{
+        border: none;
+        margin-bottom: 0;
+    }
+}
+
+.widget-curso-label{
+    font-family: $fuenteheading;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.widget-curso-info{
+    font-weight: normal;
+    font-size: 2rem;
+}

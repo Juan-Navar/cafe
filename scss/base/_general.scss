@@ -17,8 +17,7 @@ body{
 }
 
 .contenedor{
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%, 120rem); /*min va a aplicar el menor de los 2 valores, osea...en dispositivos mas grandes aplica los 120rem, si lo haces mas pequeño, aplica el 90%*/
     margin: 0 auto;
 }
 
@@ -28,6 +27,7 @@ a{
 
 h1, h2, h3, h4{
     font-family: $fuenteheading;
+    line-height: 1.2;
 }
 
 h1{
